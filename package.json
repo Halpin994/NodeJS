@@ -1,0 +1,45 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Halpin994/NodeJS.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Halpin994/NodeJS/issues"
+  },
+  "homepage": "https://github.com/Halpin994/NodeJS#readme",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-loader": "^8.0.4",
+    "babel-preset-latest": "^6.24.1",
+    "express": "^4.16.4",
+    "localtunnel": "^1.9.1",
+    "open": "0.0.5",
+    "package": "^1.0.1"
+  },
+    "name": "ExampleNodeEnvironment",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+    "start-server": "babel-node buildScripts/srcServer.js",
+    "start": "npm-run-all --parallel start-server share",
+    "share": "lt --port 3000"
+  },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+    "express": "^4.16.1",
+    "localtunnel": "^1.8.3",
+    "open": "0.0.5"
+  },
+}
